@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
 /* Box sizing rules */
 *,
 *::before,
@@ -32,9 +34,12 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  font-family: "Red Hat Display", sans-serif;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-size: cover;
 }
 
 /* A elements that don't have a class get default styles */
@@ -71,4 +76,15 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+:root {
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+
+  --clr-very-pale-blue: hsl(225, 100%, 98%);
+  --clr-desaturated-blue: hsl(224, 23%, 55%);
+  --clr-dark-blue: hsl(223, 47%, 23%);
+
+  --fs-1: 1rem;
 }
