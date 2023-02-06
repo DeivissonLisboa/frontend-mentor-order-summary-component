@@ -29,31 +29,40 @@
     </style>
   </head>
   <body>
-    <header>
-      <img
-        src="./images/illustration-hero.svg"
-        alt="Illustration of a woman dancing"
-      />
-    </header>
+    <main class="overflow-hidden border-radius-1">
+      <header>
+        <img
+          src="./images/illustration-hero.svg"
+          alt="Illustration of a woman dancing"
+        />
+      </header>
+      <div class="padding-32 bg-very-pale-blue text-center flow">
+        <h1 class="clr-dark-blue fs-3 fw-3">Order Summary</h1>
+        <p class="clr-desaturated-blue">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
 
-    <main>
-      <h1>Order Summary</h1>
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-
-      <div class="plan">
-        <img src="./images/icon-music.svg" alt="" />
-        <div>
-          <h2>Annual Plan</h2>
-          <p>$59.99/year</p>
+        <div class="plan">
+          <img src="./images/icon-music.svg" alt="" />
+          <div>
+            <h2 class="clr-dark-blue fs-2 fw-3">Annual Plan</h2>
+            <p class="clr-desaturated-blue">$59.99/year</p>
+          </div>
+          <button class="bg-transparent clr-bright-blue text-underline">
+            Change
+          </button>
         </div>
-        <button>Change</button>
-      </div>
 
-      <button>Proceed to Payment</button>
-      <button>Cancel Order</button>
+        <button
+          class="bg-bright-blue clr-very-pale-blue shadow-1 border-radius-2"
+        >
+          Proceed to Payment
+        </button>
+        <button class="bg-transparent clr-desaturated-blue">
+          Cancel Order
+        </button>
+      </div>
     </main>
 
     <div class="attribution">
