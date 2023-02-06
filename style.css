@@ -38,8 +38,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-image: url("./images/pattern-background-mobile.svg");
-  background-size: cover;
+  background-color: var(--clr-pale-blue);
   display: grid;
   place-items: center;
   font-size: var(--fs-2);
