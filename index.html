@@ -20,6 +20,8 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        position: absolute;
+        bottom: 1rem;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -27,9 +29,32 @@
     </style>
   </head>
   <body>
-    Order Summary You can now listen to millions of songs, audiobooks, and
-    podcasts on any device anywhere you like! Annual Plan $59.99/year Change
-    Proceed to Payment Cancel Order
+    <header>
+      <img
+        src="./images/illustration-hero.svg"
+        alt="Illustration of a woman dancing"
+      />
+    </header>
+
+    <main>
+      <h1>Order Summary</h1>
+      <p>
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+
+      <div class="plan">
+        <img src="./images/icon-music.svg" alt="" />
+        <div>
+          <h2>Annual Plan</h2>
+          <p>$59.99/year</p>
+        </div>
+        <button>Change</button>
+      </div>
+
+      <button>Proceed to Payment</button>
+      <button>Cancel Order</button>
+    </main>
 
     <div class="attribution">
       Challenge by
